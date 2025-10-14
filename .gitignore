@@ -1,0 +1,13 @@
+dist/
+logs/
+node_modules/
+var/
+
+Thumbs.db
+*.log*
+*.swp
+*.swo
+.*
+
+!.env
+!.gitignore
