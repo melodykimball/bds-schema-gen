@@ -1,8 +1,8 @@
 import fetch_category from "../api/fetch_category";
-import fetch_category_list from "../api/fetch_category_list";
+import list_categories from "../api/list_categories";
 
 export default async function get_command(categoryName?: string | undefined) {
-  const categories = await fetch_category_list();
+  const categories = await list_categories();
 
   const selected = categories.filter((c) => categoryName === undefined || categoryName === c.name);
 

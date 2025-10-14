@@ -1,7 +1,7 @@
-import fetch_category_list from "../api/fetch_category_list";
+import list_categories from "../api/list_categories";
 
 export default async function list_command() {
-  const categories = await fetch_category_list();
+  const categories = await list_categories();
 
   for (const category of categories) {
     console.log(category.name);
