@@ -1,4 +1,4 @@
-import type { DatasetField } from "./DatasetField";
+import type { DatasetField } from ".";
 
 export type Dataset = {
   name: string;

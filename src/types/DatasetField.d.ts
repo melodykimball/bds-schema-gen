@@ -1,5 +1,4 @@
-import type { DatasetFieldType } from "./DatasetFieldType";
-import type { DatasetVersion } from "./DatasetVersion";
+import type { DatasetFieldType, DatasetVersion } from ".";
 
 export type DatasetField = {
   version: DatasetVersion;

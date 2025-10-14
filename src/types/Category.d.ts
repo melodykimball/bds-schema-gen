@@ -1,5 +1,4 @@
-import type { CategoryListItem } from "./CategoryListItem";
-import type { Dataset } from "./Dataset";
+import type { CategoryListItem, Dataset } from ".";
 
 export type Category = CategoryListItem & {
   datasets: Map<string, Dataset>;

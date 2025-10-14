@@ -1,9 +1,11 @@
-import { Category } from "../types/Category";
-import { CategoryListItem } from "../types/CategoryListItem";
+import type { Category, CategoryListItem } from "../types";
+import list_datasets from "./list_datasets";
 
 export default async function get_category(category: CategoryListItem) {
+  const datasets = await list_datasets(category);
+
   return {
     ...category,
-    datasets: new Map(),
+    datasets,
   } as Category;
 }
