@@ -1,4 +1,4 @@
-import fetch_category from "../api/fetch_category";
+import get_category from "../api/get_category";
 import list_categories from "../api/list_categories";
 
 export default async function get_command(categoryName?: string | undefined) {
@@ -6,7 +6,7 @@ export default async function get_command(categoryName?: string | undefined) {
 
   const selected = categories.filter((c) => categoryName === undefined || categoryName === c.name);
 
-  const result = await Promise.all(selected.map((c) => fetch_category(c)));
+  const result = await Promise.all(selected.map((c) => get_category(c)));
 
   console.log(JSON.stringify(result, json_replacer, 2));
 }
