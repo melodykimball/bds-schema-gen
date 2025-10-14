@@ -1,4 +1,6 @@
 import { Command } from "commander";
+import list_command from "./commands/list_command.js";
+import get_command from "./commands/get_command.js";
 
 export default function app() {
   const app = new Command();
@@ -8,12 +10,4 @@ export default function app() {
   app.command("get [categoryName]").description("Get schema for specified category").action(get_command);
 
   return app;
-}
-
-async function list_command() {
-  console.log("Not implemented");
-}
-
-async function get_command(categoryName?: string | undefined) {
-  console.log("Not implemented");
 }
