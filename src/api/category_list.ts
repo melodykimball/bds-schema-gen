@@ -1,3 +1,5 @@
+export type CategoryListItem = [string, string];
+
 export default async function fetch_category_list() {
-  return [] as [string, string][];
+  return [] as CategoryListItem[];
 }
