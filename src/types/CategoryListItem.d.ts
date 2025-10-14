@@ -1,1 +1,4 @@
-export type CategoryListItem = [string, string];
+export type CategoryListItem = {
+  name: string;
+  url: string;
+};
