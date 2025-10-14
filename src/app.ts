@@ -1,6 +1,6 @@
 import { Command } from "commander";
-import list_command from "./commands/list_command.js";
-import get_command from "./commands/get_command.js";
+import list_command from "./commands/list_command";
+import get_command from "./commands/get_command";
 
 export default function app() {
   const app = new Command();
