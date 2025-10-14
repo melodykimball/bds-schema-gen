@@ -18,7 +18,16 @@
     "type": "git",
     "url": "git+https://github.com/melodykimball/bds-schema-gen.git"
   },
+  "bin": {
+    "bds-schema-gen": "./dist/bds-schema-gen.js"
+  },
   "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "lint": "eslint .",
+    "build": "npm run clean && npm run lint && rollup -c",
+    "start": "node dist/bds-schema-gen.js"
+  },
   "devDependencies": {
     "@eslint/js": "^9.37.0",
     "@rollup/plugin-commonjs": "^28.0.6",
