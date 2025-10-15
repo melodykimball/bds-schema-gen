@@ -3,7 +3,7 @@ import * as is_a from "../utils/is_a";
 
 const SiteNavActionType = "@@navigation/GET_NAVIGATION_FLAT_DONE";
 
-export default async function list_site_navs(url: string) {
+export async function list(url: string) {
   const $ = await cheerio.fromURL(url);
 
   // Fetch header actions

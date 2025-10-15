@@ -1,27 +1,30 @@
 import * as cheerio from "cheerio";
-import type {
-  CategoryListItem,
-  Cheerio,
-  CheerioAPI,
-  Dataset,
-  DatasetField,
-  DatasetFieldType,
-  DatasetVersion,
-  Element,
+import {
+  type CategoryListItem,
+  type Cheerio,
+  type CheerioAPI,
+  type Dataset,
+  type DatasetField,
+  type DatasetFieldType,
+  DatasetFieldTypes,
+  type DatasetVersion,
+  type Element,
 } from "../types";
-import { DatasetFieldTypes } from "../types/DatasetFieldType";
-import { text, elements, rows } from "../utils/cheerio";
+import * as cheerUtil from "../utils/cheerio";
 
-export default async function list_datasets(category: CategoryListItem) {
-  const $ = await get_category_page(category.url);
+export async function list(category: CategoryListItem) {
+  const $ = await get_page(category.url);
 
   const headers = $("div.mainColumn article").children("h2");
 
   const datasets = new Map<string, Dataset>();
 
-  for (const header of elements($, headers)) {
-    const dataset = get_category_dataset($, header);
+  for (const header of cheerUtil.elements($, headers)) {
+    const dataset = get_dataset($, header);
     if (dataset.fields.length > 0) {
+      if (dataset.url) {
+        dataset.url = `${category.url}#${dataset.url}`;
+      }
       datasets.set(dataset.name, dataset);
     }
   }
@@ -29,7 +32,12 @@ export default async function list_datasets(category: CategoryListItem) {
   return datasets;
 }
 
-async function get_category_page(url: string) {
+export async function get(category: CategoryListItem, name: string) {
+  const datasets = await list(category);
+  return datasets.get(name);
+}
+
+async function get_page(url: string) {
   const $ = await cheerio.fromURL(url);
 
   const fallbackPageContent = $("noscript#fallbackPageContent").html() ?? "";
@@ -37,19 +45,19 @@ async function get_category_page(url: string) {
   return cheerio.load(fallbackPageContent);
 }
 
-function get_category_dataset($: CheerioAPI, header: Cheerio<Element>) {
-  const name = text(header);
+function get_dataset($: CheerioAPI, header: Cheerio<Element>) {
+  const id = header.data("id");
   const descriptions: string[] = [];
   const fields: DatasetField[] = [];
 
   const siblings = header.nextUntil("h2");
-  for (const el of elements($, siblings)) {
+  for (const el of cheerUtil.elements($, siblings)) {
     if (el.is("table")) {
       if (fields.length === 0) {
-        fields.push(...get_dataset_fields($, el));
+        fields.push(...get_fields($, el));
       }
     } else {
-      const description = text(el);
+      const description = cheerUtil.text(el);
       if (description.length > 0) {
         descriptions.push(description);
       }
@@ -57,20 +65,22 @@ function get_category_dataset($: CheerioAPI, header: Cheerio<Element>) {
   }
 
   return {
-    name: name,
+    name: cheerUtil.text(header),
+    url: typeof id === "string" ? id : undefined,
+    versions: [...new Set(fields.map((f) => f.version.id))].sort((a, b) => parseFloat(a) - parseFloat(b)),
     description: descriptions.join(" ").trim(),
     keys: fields.filter((f) => f.isPrimary).map((f) => f.name),
-    fields: fields,
+    fields,
   } as Dataset;
 }
 
-function get_dataset_fields($: CheerioAPI, table: Cheerio<Element>) {
+function get_fields($: CheerioAPI, table: Cheerio<Element>) {
   const fields: DatasetField[] = [];
 
-  for (const row of rows($, table)) {
-    const version = get_dataset_version(row.get("Version History") ?? "");
+  for (const row of cheerUtil.rows($, table)) {
+    const version = get_version(row.get("Version History") ?? "");
     const name = row.get("Field");
-    const type = get_dataset_field_type(row.get("Type") ?? "");
+    const type = get_field_type(row.get("Type") ?? "");
     const description = row.get("Description") ?? "";
     const key = row.get("Key") ?? "";
 
@@ -91,7 +101,7 @@ function get_dataset_fields($: CheerioAPI, table: Cheerio<Element>) {
   return fields;
 }
 
-function get_dataset_version(versionHistory: string) {
+function get_version(versionHistory: string) {
   const matches = versionHistory?.match(/^([0-9]+\.[0-9]+)(?:[ ]*\/[ ]*([0-9]+\.[0-9]+))?(?:[ ]*-[ ]*(.*))?/) ?? null;
   return matches
     ? ({
@@ -101,7 +111,7 @@ function get_dataset_version(versionHistory: string) {
     : undefined;
 }
 
-function get_dataset_field_type(el: string): DatasetFieldType | undefined {
+function get_field_type(el: string): DatasetFieldType | undefined {
   const fieldType = DatasetFieldTypes.find((t) => t === el);
   return fieldType ? (fieldType as DatasetFieldType) : undefined;
 }
