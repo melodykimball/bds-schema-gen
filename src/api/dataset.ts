@@ -11,7 +11,6 @@ import {
   type Element,
 } from "../types";
 import * as cheerUtil from "../utils/cheerio";
-import * as is_a from "../utils/is_a";
 
 export async function list(category: CategoryListItem) {
   const $ = await get_page(category.url);
@@ -47,8 +46,7 @@ async function get_page(url: string) {
 }
 
 function get_dataset($: CheerioAPI, header: Cheerio<Element>) {
-  const id = header.data('id');
-  const name = cheerUtil.text(header);
+  const id = header.data("id");
   const descriptions: string[] = [];
   const fields: DatasetField[] = [];
 
@@ -67,8 +65,9 @@ function get_dataset($: CheerioAPI, header: Cheerio<Element>) {
   }
 
   return {
-    name,
+    name: cheerUtil.text(header),
     url: typeof id === "string" ? id : undefined,
+    versions: [...new Set(fields.map((f) => f.version.id))].sort((a, b) => parseFloat(a) - parseFloat(b)),
     description: descriptions.join(" ").trim(),
     keys: fields.filter((f) => f.isPrimary).map((f) => f.name),
     fields,

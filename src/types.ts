@@ -19,6 +19,7 @@ export type Category = CategoryListItem & {
 export type Dataset = {
   name: string;
   url?: string;
+  versions: string[];
   description: string;
   keys: string[];
   fields: DatasetField[];
