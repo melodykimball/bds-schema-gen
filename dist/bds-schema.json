@@ -8,7 +8,7 @@
         "url": "https://community.d2l.com/brightspace/kb/articles/4752-accommodations-data-sets#accommodations-profile-log",
         "versions": [
           "6.10",
-          "7.10"
+          "7.1"
         ],
         "description": "The Accommodations Profile Log Brightspace Data Set returns all accommodations that have been created for learners in an org unit. Note: Learner accommodations contain sensitive information.",
         "keys": [
@@ -120,8 +120,8 @@
         "name": "Activity Feed Comment Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4712-activity-feed-data-sets#activity-feed-comment-log",
         "versions": [
-          "6.10",
-          "6.20"
+          "6.1",
+          "6.2"
         ],
         "description": "The Activity Feed Comment Log Brightspace Data Set returns details on all actions that occur to each comment in the organization.",
         "keys": [
@@ -238,7 +238,7 @@
         "name": "Activity Feed Comment Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4712-activity-feed-data-sets#activity-feed-comment-objects",
         "versions": [
-          "6.20"
+          "6.2"
         ],
         "description": "The Activity Feed Comment Objects Brightspace Data Set returns details on each comment in the organization.",
         "keys": [
@@ -355,7 +355,7 @@
         "name": "Activity Feed Post Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4712-activity-feed-data-sets#activity-feed-post-log",
         "versions": [
-          "6.10"
+          "6.1"
         ],
         "description": "The Activity Feed Post Log Brightspace Data Set returns details on all actions that occur to each post in the organization.",
         "keys": [
@@ -511,7 +511,7 @@
         "name": "Activity Feed Post Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4712-activity-feed-data-sets#activity-feed-post-objects",
         "versions": [
-          "6.20"
+          "6.2"
         ],
         "description": "The Activity Feed Post Objects Brightspace Data Set returns details on each post in the organization.",
         "keys": [
@@ -673,9 +673,9 @@
         "name": "Announcements",
         "url": "https://community.d2l.com/brightspace/kb/articles/4723-announcements-data-sets#announcements",
         "versions": [
-          "1.00",
-          "5.10",
-          "6.00"
+          "1.0",
+          "5.1",
+          "6.0"
         ],
         "description": "The Announcements Brightspace Data Set returns details on the announcements a user has created for your org units.",
         "keys": [
@@ -902,9 +902,9 @@
         "name": "Attendance Registers",
         "url": "https://community.d2l.com/brightspace/kb/articles/4519-attendance-data-sets#attendance-registers",
         "versions": [
-          "5.40",
-          "6.00",
-          "9.90"
+          "5.4",
+          "6.0",
+          "9.9"
         ],
         "description": "The Attendance Registers Brightspace Data Set describes the registers for taking attendance that exist in your organization.",
         "keys": [
@@ -1060,9 +1060,9 @@
         "name": "Attendance Schemes",
         "url": "https://community.d2l.com/brightspace/kb/articles/4519-attendance-data-sets#attendance-schemes",
         "versions": [
-          "5.40",
-          "6.00",
-          "10.30"
+          "5.4",
+          "6.0",
+          "10.3"
         ],
         "description": "The Attendance Schemes Brightspace Data Set describes the schemes that are available for use with attendance registers in your organization.",
         "keys": [
@@ -1206,9 +1206,9 @@
         "name": "Attendance Sessions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4519-attendance-data-sets#attendance-sessions",
         "versions": [
-          "5.40",
-          "6.00",
-          "9.90"
+          "5.4",
+          "6.0",
+          "9.9"
         ],
         "description": "The Attendance Sessions Brightspace Data Set maps the sessions that exist for each register in your organization.",
         "keys": [
@@ -1325,9 +1325,9 @@
         "name": "Attendance User Sessions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4519-attendance-data-sets#attendance-user-sessions",
         "versions": [
-          "5.40",
-          "7.30",
-          "9.90"
+          "5.4",
+          "7.3",
+          "9.9"
         ],
         "description": "The Attendance User Sessions Brightspace Data Set provides the result for each user's session in each register in your organization.",
         "keys": [
@@ -1438,10 +1438,10 @@
         "name": "Award Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4520-awards-data-sets#award-objects",
         "versions": [
-          "3.40",
-          "6.00",
-          "7.70",
-          "8.70"
+          "3.4",
+          "6.0",
+          "7.7",
+          "8.7"
         ],
         "description": "The Award Objects Brightspace Data Set returns details on all awards that were created anywhere in the organization.",
         "keys": [
@@ -1623,13 +1623,13 @@
         "name": "Awards Issued",
         "url": "https://community.d2l.com/brightspace/kb/articles/4520-awards-data-sets#awards-issued",
         "versions": [
-          "1.00",
-          "1.40",
-          "3.00",
-          "6.00",
-          "9.00",
-          "9.15",
-          "9.50"
+          "1.0",
+          "1.4",
+          "3.0",
+          "6.0",
+          "9.0",
+          "9.5",
+          "9.15"
         ],
         "description": "The Awards Issued Brightspace Data Set returns a list of all the awards that have been issued for your org units. The only available data for the LastModifiedDate field is from August 2023 onwards.",
         "keys": [
@@ -1850,10 +1850,10 @@
         "name": "Course Awards",
         "url": "https://community.d2l.com/brightspace/kb/articles/4520-awards-data-sets#course-awards",
         "versions": [
-          "1.00",
-          "1.40",
-          "4.00",
-          "9.10"
+          "1.0",
+          "1.4",
+          "4.0",
+          "9.1"
         ],
         "description": "The Course Awards Brightspace Data Set returns a list of all the awards that exist in each course for all your org units.",
         "keys": [
@@ -2002,8 +2002,8 @@
         "name": "Calendar Events",
         "url": "https://community.d2l.com/brightspace/kb/articles/4521-calendar-data-sets#calendar-events",
         "versions": [
-          "1.00",
-          "6.00"
+          "1.0",
+          "6.0"
         ],
         "description": "The Calendar Events Brightspace Data Set returns a list of calendar events and their details for your org units.",
         "keys": [
@@ -2217,9 +2217,9 @@
         "name": "Checklist Category Details",
         "url": "https://community.d2l.com/brightspace/kb/articles/4523-checklist-data-sets#checklist-category-details",
         "versions": [
-          "3.30",
-          "6.00",
-          "8.90"
+          "3.3",
+          "6.0",
+          "8.9"
         ],
         "description": "The Checklist Category Details Brightspace Data Set returns information on categories within checklists.",
         "keys": [
@@ -2362,9 +2362,9 @@
         "name": "Checklist Completions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4523-checklist-data-sets#checklist-completions",
         "versions": [
-          "1.00",
-          "9.00",
-          "9.40"
+          "1.0",
+          "9.0",
+          "9.4"
         ],
         "description": "The Checklist Completions Brightspace Data Set returns the completion status of each checklist item. Note: The IsCompleted column is set to TRUE in all data prior to 20.23.8.",
         "keys": [
@@ -2482,9 +2482,9 @@
         "name": "Checklist Item Details",
         "url": "https://community.d2l.com/brightspace/kb/articles/4523-checklist-data-sets#checklist-item-details",
         "versions": [
-          "3.30",
-          "6.00",
-          "8.90"
+          "3.3",
+          "6.0",
+          "8.9"
         ],
         "description": "The Checklist Item Details Brightspace Data Set returns information on each checklist item within a checklist.",
         "keys": [
@@ -2666,9 +2666,9 @@
         "name": "Checklist Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4523-checklist-data-sets#checklist-objects",
         "versions": [
-          "3.30",
-          "5.30",
-          "6.00",
+          "3.3",
+          "5.3",
+          "6.0",
           "8.10"
         ],
         "description": "The Checklist Objects Brightspace Data Set returns information on checklist attributes.",
@@ -2844,9 +2844,9 @@
         "name": "Competency Activities",
         "url": "https://community.d2l.com/brightspace/kb/articles/4754-competency-data-sets#competency-activities",
         "versions": [
-          "1.80",
-          "6.00",
-          "8.90"
+          "1.8",
+          "6.0",
+          "8.9"
         ],
         "description": "The Competency Activities Brightspace Data Set retrieves the data required to associate rubrics with competency activities. Using the returned data, clients can validate that they have configured the associations correctly. Returned Fields",
         "keys": [
@@ -3080,8 +3080,8 @@
         "name": "Competency Activity Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4754-competency-data-sets#competency-activity-log",
         "versions": [
-          "1.60",
-          "6.00"
+          "1.6",
+          "6.0"
         ],
         "description": "The Competency Activity Log Brightspace Data Set records changes as competencies are mapped to specific activities. Returned Fields",
         "keys": [
@@ -3173,13 +3173,13 @@
         "name": "Competency Activity Results",
         "url": "https://community.d2l.com/brightspace/kb/articles/4754-competency-data-sets#competency-activity-results",
         "versions": [
-          "1.00",
-          "1.40",
-          "1.60",
-          "3.00",
-          "4.10",
-          "5.20",
-          "6.00"
+          "1.0",
+          "1.4",
+          "1.6",
+          "3.0",
+          "4.1",
+          "5.2",
+          "6.0"
         ],
         "description": "The Competency Activity Results Brightspace Data Set returns data on activities associated with learning objectives that have been created for your org units. Returned Fields",
         "keys": [
@@ -3351,8 +3351,8 @@
         "name": "Competency Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4754-competency-data-sets#competency-log",
         "versions": [
-          "1.50",
-          "6.00"
+          "1.5",
+          "6.0"
         ],
         "description": "The Competency Log Brightspace Data Set returns data changes to the competency structure. Returned Fields",
         "keys": [
@@ -3534,9 +3534,9 @@
         "name": "Competency Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4754-competency-data-sets#competency-objects",
         "versions": [
-          "1.00",
-          "4.40",
-          "6.00"
+          "1.0",
+          "4.4",
+          "6.0"
         ],
         "description": "The Competency Objects Brightspace Data Set returns the competencies and learning objectives which have been created within your organization. Returned Fields",
         "keys": [
@@ -3705,8 +3705,8 @@
         "name": "Competency Structure",
         "url": "https://community.d2l.com/brightspace/kb/articles/4754-competency-data-sets#competency-structure",
         "versions": [
-          "1.20",
-          "1.40"
+          "1.2",
+          "1.4"
         ],
         "description": "The Competency Structure Brightspace Data Set returns information about all competency structures for your org units. Returned Fields",
         "keys": [
@@ -3793,7 +3793,7 @@
         "name": "Content Files Properties Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4713-content-data-sets#content-files-properties-log",
         "versions": [
-          "7.80"
+          "7.8"
         ],
         "description": "In the Content Files Properties Log Brightspace Data Set, each row represents a change (created, edited, or deleted) to a file that is linked to a content object within an org unit. The data set only captures changes to content files from July 2022 onwards. FAQ Q: Does this data set provide the size of all files within Brightspace?A: No. This data set only provides data on files associated with content objects. Additionally, it only surfaces data for newly uploaded, edited, or deleted files (associated with content) starting with the release of the data set in July 2022. It does not provide any historical data. Q: Are Active and Inactive courses included in the data?A: Yes. As long as the files are associated with a content object, it doesn't matter whether the course is active or inactive. Q: Are all file formats included in the data?A: Yes, all file formats are included when associated with a content object. However, please be aware that this data set does NOT include files that are embedded within an HTML content object. Q: If courses are copied (via Course Copy or CCS) or imported, will files associated with the newly created course be included in the data?A: Yes, files that are associated with content objects within a copied or imported course are surfaced in the data set with \"Created\" in the Action field.",
         "keys": [
@@ -3938,16 +3938,16 @@
         "name": "Content Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4713-content-data-sets#content-objects",
         "versions": [
-          "1.00",
-          "2.20",
-          "3.00",
-          "5.00",
-          "5.10",
-          "6.00",
+          "1.0",
+          "2.2",
+          "3.0",
+          "5.0",
+          "5.1",
+          "6.0",
           "7.13",
+          "8.6",
           "8.10",
-          "8.60",
-          "10.00"
+          "10.0"
         ],
         "description": "The Content Objects Brightspace Data Set returns information about content topics and modules created for your org units.",
         "keys": [
@@ -4285,8 +4285,8 @@
         "name": "Content User Completion",
         "url": "https://community.d2l.com/brightspace/kb/articles/4713-content-data-sets#content-user-completion",
         "versions": [
-          "1.00",
-          "6.70",
+          "1.0",
+          "6.7",
           "9.12"
         ],
         "description": "The Content User Completion Brightspace Data Set returns information about specific user's completion of content topics. The Content User Completion Brightspace Data Set adheres to the default system limit of 150 million rows of the most recent data.",
@@ -4431,11 +4431,11 @@
         "name": "Content User Progress",
         "url": "https://community.d2l.com/brightspace/kb/articles/4713-content-data-sets#content-user-progress",
         "versions": [
-          "1.00",
-          "2.40",
-          "3.00",
-          "3.20",
-          "8.70",
+          "1.0",
+          "2.4",
+          "3.0",
+          "3.2",
+          "8.7",
           "9.10"
         ],
         "description": "The Content User Progress Brightspace Data Set returns user progress records modified in the past three calendar years. Results are ordered from newest to oldest. The Content User Progress Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
@@ -5849,7 +5849,7 @@
         "name": "Course Copy Logs",
         "url": "https://community.d2l.com/brightspace/kb/articles/4725-course-copy-data-sets#course-copy-logs",
         "versions": [
-          "1.00",
+          "1.0",
           "9.12"
         ],
         "description": "The Course Copy Logs Brightspace Data Set returns a list of course copy jobs. Deleted jobs and records for deleted org units are included.",
@@ -5999,7 +5999,7 @@
         "name": "Course Publisher Launches",
         "url": "https://community.d2l.com/brightspace/kb/articles/4524-course-publisher-data-sets#course-publisher-launches",
         "versions": [
-          "6.80"
+          "6.8"
         ],
         "description": "The Course Publisher Launches Brightspace Data Set returns details about course packages launched from the Course Publisher tool.",
         "keys": [
@@ -6142,7 +6142,7 @@
         "name": "Course Publisher Recipients",
         "url": "https://community.d2l.com/brightspace/kb/articles/4524-course-publisher-data-sets#course-publisher-recipients",
         "versions": [
-          "6.80"
+          "6.8"
         ],
         "description": "The Course Publisher Recipients Brightspace Data Set returns details about course package recipients in the Course Publisher tool.",
         "keys": [
@@ -6213,10 +6213,10 @@
         "name": "Creator+ Practices Adoption",
         "url": "https://community.d2l.com/brightspace/kb/articles/26161-creator-data-sets#creator-practices-adoption",
         "versions": [
+          "9.7",
+          "9.8",
           "9.11",
-          "9.70",
-          "9.80",
-          "10.20"
+          "10.2"
         ],
         "description": "In the Creator+ Practices Adoption Brightspace Data Set, each row represents a Practice created using Creator+. Practices in Learning Objects and Data Sets When you create a Practice in an HTML page and that HTML page is published as a Learning Object to the Learning Object Repository, the Practice only retains its data-enabled features if you insert its Learning Object into a new course using the Copy as Content option. The Locked Link and Dynamic Link insertion options do not allow the Practice to retain its data-enabled features. Only Practices that were inserted using Copy as Content appear in the Creator+ Practices Adoption BDS.",
         "keys": [
@@ -6333,8 +6333,8 @@
         "name": "Creator+ Practices Engagement",
         "url": "https://community.d2l.com/brightspace/kb/articles/26161-creator-data-sets#creator-practices-engagement",
         "versions": [
-          "9.80",
-          "10.20"
+          "9.8",
+          "10.2"
         ],
         "description": "In the Creator+ Practices Engagement Brightspace Data Set, each row represents an instance where a learner attempted a Practice and checked their answer.",
         "keys": [
@@ -6444,12 +6444,12 @@
         "name": "Discussion Forums",
         "url": "https://community.d2l.com/brightspace/kb/articles/4525-discussions-data-sets#discussion-forums",
         "versions": [
-          "2.30",
-          "2.40",
-          "5.30",
-          "7.00",
-          "7.70",
-          "8.40"
+          "2.3",
+          "2.4",
+          "5.3",
+          "7.0",
+          "7.7",
+          "8.4"
         ],
         "description": "The Discussion Forums Brightspace Data Set returns discussion forums. Results are ordered from newest to oldest.",
         "keys": [
@@ -6683,13 +6683,13 @@
         "name": "Discussion Posts",
         "url": "https://community.d2l.com/brightspace/kb/articles/4525-discussions-data-sets#discussion-posts",
         "versions": [
-          "1.00",
-          "2.20",
-          "3.00",
-          "4.20",
-          "5.20",
-          "5.60",
-          "9.00"
+          "1.0",
+          "2.2",
+          "3.0",
+          "4.2",
+          "5.2",
+          "5.6",
+          "9.0"
         ],
         "description": "The Discussion Posts Brightspace Data Set returns details on discussion posts, ordered from newest to oldest. The Discussion Posts Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data. Note: You can extract the body of the discussion post through the API.",
         "keys": [
@@ -6962,8 +6962,8 @@
         "name": "Discussion Posts Read Status",
         "url": "https://community.d2l.com/brightspace/kb/articles/4525-discussions-data-sets#discussion-posts-read-status",
         "versions": [
-          "1.00",
-          "6.70"
+          "1.0",
+          "6.7"
         ],
         "description": "The Discussion Posts Read Status Brightspace Data Set returns details on discussion posts read by users for your org units. The Discussion Posts Read Status Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
         "keys": [
@@ -7068,14 +7068,14 @@
         "name": "Discussion Topics",
         "url": "https://community.d2l.com/brightspace/kb/articles/4525-discussions-data-sets#discussion-topics",
         "versions": [
-          "2.30",
-          "2.40",
-          "4.30",
-          "5.30",
-          "6.00",
-          "7.00",
-          "7.70",
-          "10.00"
+          "2.3",
+          "2.4",
+          "4.3",
+          "5.3",
+          "6.0",
+          "7.0",
+          "7.7",
+          "10.0"
         ],
         "description": "The Discussion Topics Brightspace Data Set returns discussion topics. Results are ordered from newest to oldest.",
         "keys": [
@@ -7439,9 +7439,9 @@
         "name": "Discussion Topic User Scores",
         "url": "https://community.d2l.com/brightspace/kb/articles/4525-discussions-data-sets#discussion-topic-user-scores",
         "versions": [
-          "1.00",
-          "5.00",
-          "5.20"
+          "1.0",
+          "5.0",
+          "5.2"
         ],
         "description": "The Discussion Topic User Scores Brightspace Data Set returns the scores a user received for a discussion topic.",
         "keys": [
@@ -7526,9 +7526,9 @@
         "name": "Activity Exemptions Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4526-exemptions-data-sets#activity-exemptions-log",
         "versions": [
-          "1.60",
-          "5.10",
-          "6.00"
+          "1.6",
+          "5.1",
+          "6.0"
         ],
         "description": "The Activity Exemptions Log Brightspace Data Set returns details on the exemptions a user has created for your organization units. Returned Fields",
         "keys": [
@@ -7664,10 +7664,10 @@
         "name": "Grade Book Settings",
         "url": "https://community.d2l.com/brightspace/kb/articles/4527-grades-data-sets#grade-book-settings",
         "versions": [
-          "1.00",
-          "3.00",
-          "6.00",
-          "6.70"
+          "1.0",
+          "3.0",
+          "6.0",
+          "6.7"
         ],
         "description": "The Grade Book Settings Brightspace Data Set returns all the grade book settings for your org units.",
         "keys": [
@@ -7772,14 +7772,15 @@
         "name": "Grade Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4527-grades-data-sets#grade-objects",
         "versions": [
-          "1.00",
+          "1.0",
+          "1.1",
           "1.10",
-          "3.20",
-          "5.20",
-          "5.50",
-          "6.00",
+          "3.2",
+          "5.2",
+          "5.5",
+          "6.0",
           "6.11",
-          "8.00",
+          "8.0",
           "9.12"
         ],
         "description": "The Grade Objects Brightspace Data Set returns a list of the grade objects created for your org units. The data set returns a NULL grade scheme value when the grade item is using the default scheme.",
@@ -8196,9 +8197,9 @@
         "name": "Grade Objects Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4527-grades-data-sets#grade-objects-log",
         "versions": [
-          "4.20",
-          "5.20",
-          "6.00"
+          "4.2",
+          "5.2",
+          "6.0"
         ],
         "description": "The Grade Objects Log Brightspace Data Set returns a log of all changes to grades for each applicable user in the organization.",
         "keys": [
@@ -8354,13 +8355,13 @@
         "name": "Grade Results",
         "url": "https://community.d2l.com/brightspace/kb/articles/4527-grades-data-sets#grade-results",
         "versions": [
-          "1.00",
-          "1.60",
-          "3.20",
-          "5.20",
-          "6.00",
+          "1.0",
+          "1.6",
+          "3.2",
+          "5.2",
+          "6.0",
           "7.13",
-          "10.50"
+          "10.5"
         ],
         "description": "The Grade Results Brightspace Data Set returns data from the newest grade objects first.",
         "keys": [
@@ -8596,9 +8597,9 @@
         "name": "Grade Schemes",
         "url": "https://community.d2l.com/brightspace/kb/articles/4527-grades-data-sets#grade-schemes",
         "versions": [
+          "1.4",
           "1.10",
-          "1.40",
-          "6.00",
+          "6.0",
           "9.11"
         ],
         "description": "The Grade Schemes Brightspace Data Set returns data about created grade schemes.",
@@ -8677,7 +8678,7 @@
         "name": "Grade Scheme Ranges",
         "url": "https://community.d2l.com/brightspace/kb/articles/4527-grades-data-sets#grade-scheme-ranges",
         "versions": [
-          "6.00"
+          "6.0"
         ],
         "description": "The Grade Schemes Ranges Brightspace Data Set describes the ranges used in grade schemes in the organization.",
         "keys": [
@@ -8788,9 +8789,9 @@
         "name": "Intelligent Agent Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4528-intelligent-agents-data-sets#intelligent-agent-objects",
         "versions": [
-          "5.40",
-          "6.00",
-          "7.40"
+          "5.4",
+          "6.0",
+          "7.4"
         ],
         "description": "The Intelligent Agent Objects Brightspace Data Set describes all the intelligent agents created in your organization. Returned Fields",
         "keys": [
@@ -9102,8 +9103,8 @@
         "name": "Intelligent Agent Run Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4528-intelligent-agents-data-sets#intelligent-agent-run-log",
         "versions": [
-          "5.40",
-          "6.00"
+          "5.4",
+          "6.0"
         ],
         "description": "The Intelligent Agent Run Log Brightspace Data Set lists all the times, including practice runs, each intelligent agent has run in your organization. This data set captures data from November 2020 onwards. Returned Fields",
         "keys": [
@@ -9246,7 +9247,7 @@
         "name": "Intelligent Agent Run Users",
         "url": "https://community.d2l.com/brightspace/kb/articles/4528-intelligent-agents-data-sets#intelligent-agent-run-users",
         "versions": [
-          "5.40"
+          "5.4"
         ],
         "description": "The Intelligent Agent Run Users Brightspace Data Set lists the users that each intelligent agent run affected and the resulting action. It does not include users that don't meet agent criteria or are part of a practice run. Returned Fields",
         "keys": [
@@ -9508,7 +9509,7 @@
         "name": "Local Authentication Security Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4714-local-authentication-data-sets#local-authentication-security-log",
         "versions": [
-          "7.60"
+          "7.6"
         ],
         "description": "The Local Authentication Security Log Brightspace Data Set has a record of users who are authorized for local login and whether two-factor authentication was enabled or disabled. This data set only captures data from May 2022 onwards. Returned Fields",
         "keys": [
@@ -9582,13 +9583,13 @@
         "name": "Organizational Units",
         "url": "https://community.d2l.com/brightspace/kb/articles/4529-organizational-units-data-sets#organizational-units",
         "versions": [
-          "1.00",
-          "1.90",
-          "3.10",
-          "5.20",
-          "6.00",
-          "7.40",
-          "9.90"
+          "1.0",
+          "1.9",
+          "3.1",
+          "5.2",
+          "6.0",
+          "7.4",
+          "9.9"
         ],
         "description": "The Organizational Units Brightspace Data Set returns details about all org units within your organization. Note: Backfill of historical IsDeleted, DeletedDate, and RecycledDate values is determined by the date/time values in the OrgUnit audit log.",
         "keys": [
@@ -9783,7 +9784,7 @@
         "name": "Organizational Unit Ancestors",
         "url": "https://community.d2l.com/brightspace/kb/articles/4529-organizational-units-data-sets#organizational-unit-ancestors",
         "versions": [
-          "1.00"
+          "1.0"
         ],
         "description": "The Organizational Unit Ancestors Brightspace Data Set returns a list of all the org units and the corresponding ancestors for an org unit. An ancestor is defined as a parent of an org unit.",
         "keys": [
@@ -9823,7 +9824,7 @@
         "name": "Organizational Unit Descendants",
         "url": "https://community.d2l.com/brightspace/kb/articles/4529-organizational-units-data-sets#organizational-unit-descendants",
         "versions": [
-          "1.00"
+          "1.0"
         ],
         "description": "The Organizational Unit Descendants Brightspace Data Set returns a list of all the org units and the corresponding descendants for an org unit. A descendant is defined as the child of an org unit.",
         "keys": [
@@ -9863,9 +9864,9 @@
         "name": "Organizational Unit Parents",
         "url": "https://community.d2l.com/brightspace/kb/articles/4529-organizational-units-data-sets#organizational-unit-parents",
         "versions": [
-          "2.30",
-          "6.00",
-          "8.60"
+          "2.3",
+          "6.0",
+          "8.6"
         ],
         "description": "The Organizational Unit Parents Brightspace Data Set returns the direct parent of each org unit in order to build out the initial org unit structure.",
         "keys": [
@@ -9931,8 +9932,8 @@
         "name": "Organizational Unit Recent Access",
         "url": "https://community.d2l.com/brightspace/kb/articles/4529-organizational-units-data-sets#organizational-unit-recent-access",
         "versions": [
-          "1.00",
-          "8.60"
+          "1.0",
+          "8.6"
         ],
         "description": "The Organizational Unit Recent Access Brightspace Data Set returns a list of users, corresponding org units, and the time stamp when they most recently accessed the org unit.",
         "keys": [
@@ -9991,8 +9992,8 @@
         "name": "Outcome Details",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcome-details",
         "versions": [
-          "6.80",
-          "9.00"
+          "6.8",
+          "9.0"
         ],
         "description": "The Outcome Details Brightspace Data Set provides details of the outcomes that are part of all registries in all your org units. User IDs and dates are only populated for authored outcomes because updates to ASN outcomes rely on the cache invalidation system (performed by a system user). The only available data for authored outcomes is from June 2021 onwards. All data for ASN imported outcomes is available, starting with your organization's first use of Learning Outcomes.",
         "keys": [
@@ -10148,9 +10149,9 @@
         "name": "Outcomes Aligned to Tool Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-aligned-to-tool-objects",
         "versions": [
-          "6.80",
-          "7.20",
-          "10.00"
+          "6.8",
+          "7.2",
+          "10.0"
         ],
         "description": "The Outcomes Aligned to Tool Objects Brightspace Data Set provides details of which outcomes are aligned to which assessment tools for all your org units. It includes a row for every outcome aligned to an assessment activity, for both direct alignments and alignments references via rubrics. The data set only captures data from June 2021 onwards.",
         "keys": [
@@ -10296,8 +10297,8 @@
         "name": "Outcomes Assessed Checkpoints",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-assessed-checkpoints",
         "versions": [
-          "6.90",
-          "9.10",
+          "6.9",
+          "9.1",
           "9.12"
         ],
         "description": "The Outcomes Assessed Checkpoints Brightspace Data Set provides details about the Overall Achievement Calculation Settings for a checkpoint. The data set only captures data from July 2021 onwards.",
@@ -10494,7 +10495,7 @@
         "name": "Outcomes Course Specific Scales",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-course-specific-scales",
         "versions": [
-          "8.90"
+          "8.9"
         ],
         "description": "The Outcomes Course Specific Scales Brightspace Data Set provides details on which achievement scales and achievement thresholds are being used in each of your courses. The only available data for course specific achievement scales is from May 2023 onwards.",
         "keys": [
@@ -10611,7 +10612,7 @@
         "name": "Outcomes Demonstrations",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-demonstrations",
         "versions": [
-          "6.80"
+          "6.8"
         ],
         "description": "In the Outcomes Demonstrations Brightspace Data Set, each entry represents an evaluation of an assessment activity that is aligned to a learning outcome. For most tool object types, assessments are only visible in this data set when they are made visible to learners. The data set only captures data from June 2021 onwards.",
         "keys": [
@@ -10806,8 +10807,8 @@
         "name": "Outcomes in Registries",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-in-registries",
         "versions": [
-          "6.80",
-          "7.70"
+          "6.8",
+          "7.7"
         ],
         "description": "The Outcomes in Registries Brightspace Data Set provides details of which outcomes belong to which registries for all your org units. It can be used to list all outcomes in the intent list of a course, or all the outcomes in a program. The only available data for org unit owned registries is from June 2021 onwards. All data for program registries is available, starting with your organization's first use of Learning Outcomes.",
         "keys": [
@@ -10912,8 +10913,8 @@
         "name": "Outcomes Program Details",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-program-details",
         "versions": [
-          "6.80",
-          "7.60"
+          "6.8",
+          "7.6"
         ],
         "description": "The Outcomes Program Details Brightspace Data Set provides details about the programs that are defined to hold a collection of outcomes (registry). All data for the data set is available, starting with your organization's first use of Learning Outcomes.",
         "keys": [
@@ -11030,8 +11031,8 @@
         "name": "Outcomes Registry Owners",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-registry-owners",
         "versions": [
-          "6.80",
-          "7.20"
+          "6.8",
+          "7.2"
         ],
         "description": "In the Outcomes Registry Owners Brightspace Data Set, each entry represents a registry for both program and org unit owned registries. The data set only captures data from June 2021 onwards.",
         "keys": [
@@ -11150,7 +11151,7 @@
         "name": "Outcomes Rubric Alignments",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-rubric-alignments",
         "versions": [
-          "7.60"
+          "7.6"
         ],
         "description": "In the Outcomes Rubric Alignments Brightspace Data Set, each entry represents an alignment for a learning outcome to a rubric criterion row. The data set only captures data from June 2021 onwards.",
         "keys": [
@@ -11283,7 +11284,7 @@
         "name": "Outcomes Scale Definition",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-scale-definition",
         "versions": [
-          "6.80"
+          "6.8"
         ],
         "description": "In the Outcomes Scale Definition Brightspace Data Set, each entry represents an achievement scale defined at the organization level. All data for the data set is available, starting with your organization's first use of Learning Outcomes.",
         "keys": [
@@ -11426,8 +11427,8 @@
         "name": "Outcomes Scale Level Definition",
         "url": "https://community.d2l.com/brightspace/kb/articles/4796-outcomes-data-sets#outcomes-scale-level-definition",
         "versions": [
-          "6.80",
-          "7.20"
+          "6.8",
+          "7.2"
         ],
         "description": "In the Outcomes Scale Level Definition Brightspace Data Set, each entry represents a scale level defined in your scales. On the evaluation UI, they are represented by a single, clickable \"frame\". Examples include \"Not Yet Achieved\", \"Achieved\", and \"Mastered\". Scale levels can't be deleted once created. Scale levels become inaccessible when their parent scale is deleted. All data for the data set is available, starting with your organization's first use of Learning Outcomes.",
         "keys": [
@@ -11576,9 +11577,9 @@
         "name": "Portfolio Categories",
         "url": "https://community.d2l.com/brightspace/kb/articles/4530-portfolio-data-sets#portfolio-categories",
         "versions": [
-          "5.00",
-          "5.10",
-          "6.00"
+          "5.0",
+          "5.1",
+          "6.0"
         ],
         "description": "The Portfolio Categories Brightspace Data Set details the categories that have been created in your organization. Returned Fields",
         "keys": [
@@ -11682,9 +11683,9 @@
         "name": "Portfolio Evidence Categories",
         "url": "https://community.d2l.com/brightspace/kb/articles/4530-portfolio-data-sets#portfolio-evidence-categories",
         "versions": [
-          "5.00",
-          "5.10",
-          "6.00"
+          "5.0",
+          "5.1",
+          "6.0"
         ],
         "description": "The Portfolio Evidence Categories Brightspace Data Set details the one or many categories that are mapped to each piece of evidence in the Portfolios in your organization. Returned Fields",
         "keys": [
@@ -11777,10 +11778,10 @@
         "name": "Portfolio Evidence Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4530-portfolio-data-sets#portfolio-evidence-log",
         "versions": [
-          "4.50",
-          "5.10",
-          "6.00",
-          "7.60"
+          "4.5",
+          "5.1",
+          "6.0",
+          "7.6"
         ],
         "description": "The Portfolio Evidence Log Brightspace Data Set returns the actions that occur to each piece of evidence in the Portfolios in your organization. The first data point is from May, 2019 or your first use of the Portfolio tool, whichever is more recent. Returned Fields",
         "keys": [
@@ -11910,10 +11911,10 @@
         "name": "Portfolio Evidence Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4530-portfolio-data-sets#portfolio-evidence-objects",
         "versions": [
-          "5.00",
-          "6.00",
-          "6.60",
-          "7.60"
+          "5.0",
+          "6.0",
+          "6.6",
+          "7.6"
         ],
         "description": "The Portfolio Evidence Objects Brightspace Data Set defines the attributes of each piece of evidence in Portfolios in your organization. Returned Fields",
         "keys": [
@@ -12119,8 +12120,8 @@
         "name": "PreRequisite Conditions Met",
         "url": "https://community.d2l.com/brightspace/kb/articles/4533-release-conditions-data-sets#prerequisite-conditions-met",
         "versions": [
-          "6.00",
-          "9.00"
+          "6.0",
+          "9.0"
         ],
         "description": "The PreRequisite Conditions Met Brightspace Data Set returns all the prerequisite conditions that have been met for applicable users in the organization. The PreRequisite Conditions Met Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
         "keys": [
@@ -12199,11 +12200,11 @@
         "name": "Release Condition Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4533-release-conditions-data-sets#release-condition-objects",
         "versions": [
-          "4.20",
-          "5.50",
-          "6.00",
-          "6.70",
-          "9.80"
+          "4.2",
+          "5.5",
+          "6.0",
+          "6.7",
+          "9.8"
         ],
         "description": "The Release Condition Objects Brightspace Data Set returns all the release conditions (prerequisites and results) that have been created in the organization.",
         "keys": [
@@ -12400,9 +12401,9 @@
         "name": "Release Condition Results",
         "url": "https://community.d2l.com/brightspace/kb/articles/4533-release-conditions-data-sets#release-condition-results",
         "versions": [
-          "4.20",
-          "6.00",
-          "6.70"
+          "4.2",
+          "6.0",
+          "6.7"
         ],
         "description": "The Release Condition Results Brightspace Data Set returns all the release condition results and whether they have been met for applicable users in the organization. These are the resulting actions that occur when pre-requisites are met.",
         "keys": [
@@ -12474,9 +12475,9 @@
         "name": "Role Details",
         "url": "https://community.d2l.com/brightspace/kb/articles/4534-role-details-data-sets#role-details",
         "versions": [
-          "3.10",
-          "6.00",
-          "9.00"
+          "3.1",
+          "6.0",
+          "9.0"
         ],
         "description": "The Role Details Brightspace Data Set returns a full set of attributes for each role in your organization.",
         "keys": [
@@ -12885,7 +12886,7 @@
         "name": "SCORM Activities",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-activities",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Activities Brightspace Data Set describes the activities that exist in the SCORM package. Each activity will only be known after the first user, regardless of role, attempts it. Returned Fields",
         "keys": [
@@ -13054,7 +13055,7 @@
         "name": "SCORM Activity Attempts",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-activity-attempts",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Activity Attempts Brightspace Data Set lists each user attempt on each activity within a SCORM package, the completion status, success status, and time spent for each attempt. Returned Fields",
         "keys": [
@@ -13199,7 +13200,7 @@
         "name": "SCORM Interaction Attempts",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-interaction-attempts",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Interaction Attempts Brightspace Data Set lists the runtime interactions for each user on the activities they have attempted, including their response and time spent. Returned Fields",
         "keys": [
@@ -13344,7 +13345,7 @@
         "name": "SCORM Interaction Objectives",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-interaction-objectives",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Interaction Objectives Brightspace Data Set defines the relationship between interactions and their objectives. Returned Fields",
         "keys": [
@@ -13397,7 +13398,7 @@
         "name": "SCORM Interactions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-interactions",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Interactions Brightspace Data Set describes the runtime interactions that exist in each activity in the SCORM package. Each interaction will only be known after the first user, regardless of role, attempts it. Returned Fields",
         "keys": [
@@ -13514,7 +13515,7 @@
         "name": "SCORM Objective Attempts",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-objective-attempts",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Objective Attempts Brightspace Data Set outputs the score and completion information on every objective associated to the SCORM object where an attempt has been made. Returned Fields",
         "keys": [
@@ -13646,7 +13647,7 @@
         "name": "SCORM Objectives",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-objectives",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Objectives Brightspace Data Set describes the global, activity, and runtime interactions that exist for each SCORM package. The objectives will only be known after the first user registration or visit. Returned Fields",
         "keys": [
@@ -13789,7 +13790,7 @@
         "name": "SCORM Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-objects",
         "versions": [
-          "5.50"
+          "5.5"
         ],
         "description": "The SCORM Objects Brightspace Data Set describes all the SCORM objects that exist, and which course and which topic they are located in. At time of launch, this data set contains data from July 2020 onwards. Remaining baseline data will be filled in upon a future release. Returned Fields",
         "keys": [
@@ -13945,8 +13946,8 @@
         "name": "SCORM Visits",
         "url": "https://community.d2l.com/brightspace/kb/articles/4536-scorm-data-sets#scorm-visits",
         "versions": [
-          "5.50",
-          "7.30"
+          "5.5",
+          "7.3"
         ],
         "description": "The SCORM Visits Brightspace Data Set lists each user visit on each SCORM object, the overall completion status, and time spent on the visit. Returned Fields",
         "keys": [
@@ -14134,9 +14135,9 @@
         "name": "Session History",
         "url": "https://community.d2l.com/brightspace/kb/articles/4537-sessions-and-system-access-data-sets#session-history",
         "versions": [
-          "1.00",
-          "1.60",
-          "8.50"
+          "1.0",
+          "1.6",
+          "8.5"
         ],
         "description": "The Session History Brightspace Data Set returns a list of login session histories for all users in your organization. Does not include app usage. The Session History Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
         "keys": [
@@ -14253,9 +14254,9 @@
         "name": "System Access Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4537-sessions-and-system-access-data-sets#system-access-log",
         "versions": [
-          "5.60",
-          "6.00",
-          "7.60"
+          "5.6",
+          "6.0",
+          "7.6"
         ],
         "description": "The System Access Log Brightspace Data Set captures each time a user accesses the system from the LMS via a browser (Brightspace), from the Pulse app (Pulse), or from the Brightspace Parent & Guardian mobile app (BPG-mobile). System access using Brightspace Parent & Guardian is represented in the data set twice: one where Source=Brightspace and one where Source=BPG-mobile. System access begins when the user logs in, returns after 30 minutes of inactivity, or opens the app. System access ends after 30 minutes of inactivity. Data from Brightspace and Pulse is available from September 2020 onwards. Data from Brightspace Parent & Guardian is only available from May 2022 onwards.",
         "keys": [
@@ -14394,7 +14395,7 @@
         "name": "SIS Course Merge Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/19147-sis-course-merge-data-sets#sis-course-merge-log",
         "versions": [
-          "8.60"
+          "8.6"
         ],
         "description": "The SIS Course Merge Log Brightspace Data Set returns a list of attempts to merge or unmerge course offerings using the SIS Course Merge tool. This data set only captures data from July 2023 onwards. Returned Fields",
         "keys": [
@@ -14545,9 +14546,9 @@
         "name": "Quiz Survey Sections",
         "url": "https://community.d2l.com/brightspace/kb/articles/4538-surveys-data-sets#quiz-survey-sections",
         "versions": [
-          "3.40",
-          "5.10",
-          "9.40"
+          "3.4",
+          "5.1",
+          "9.4"
         ],
         "description": "The Quiz Survey Sections Brightspace Data Set returns information about all the sections and question pools that have been created in quizzes in the organization.",
         "keys": [
@@ -14794,10 +14795,11 @@
         "name": "Survey Attempts",
         "url": "https://community.d2l.com/brightspace/kb/articles/4538-surveys-data-sets#survey-attempts",
         "versions": [
-          "1.00",
+          "1.0",
+          "1.1",
           "1.10",
-          "6.00",
-          "8.30"
+          "6.0",
+          "8.3"
         ],
         "description": "The Survey Attempts Brightspace Data Set returns details for each user survey attempt for all your org units. This data set includes completed survey attempts and in-progress survey attempts.",
         "keys": [
@@ -14953,9 +14955,9 @@
         "name": "Survey Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4538-surveys-data-sets#survey-objects",
         "versions": [
-          "5.60",
-          "6.30",
-          "7.40"
+          "5.6",
+          "6.3",
+          "7.4"
         ],
         "description": "The Survey Objects Brightspace Data Set describes all the surveys in the organization.",
         "keys": [
@@ -15280,9 +15282,9 @@
         "name": "Survey User Answer Responses",
         "url": "https://community.d2l.com/brightspace/kb/articles/4538-surveys-data-sets#survey-user-answer-responses",
         "versions": [
-          "1.00",
-          "6.00",
-          "6.10",
+          "1.0",
+          "6.0",
+          "6.1",
           "9.10"
         ],
         "description": "The Survey User Answer Responses Brightspace Data Set returns data to describe the options a user chose or the answers they provided to survey questions. Rows in the data set are filtered out if they are associated with deleted survey attempts.",
@@ -15455,11 +15457,11 @@
         "name": "Survey User Answers",
         "url": "https://community.d2l.com/brightspace/kb/articles/4538-surveys-data-sets#survey-user-answers",
         "versions": [
-          "1.00",
-          "5.20",
-          "6.70",
-          "9.00",
-          "9.80"
+          "1.0",
+          "5.2",
+          "6.7",
+          "9.0",
+          "9.8"
         ],
         "description": "The Survey User Answers Brightspace Data Set returns data to describe how a user responded to a survey question. Rows in the data set are filtered out if they are associated with deleted survey attempts.",
         "keys": [
@@ -15662,9 +15664,9 @@
         "name": "Tools",
         "url": "https://community.d2l.com/brightspace/kb/articles/4540-tools-data-sets#tools",
         "versions": [
-          "4.30",
-          "6.00",
-          "8.40"
+          "4.3",
+          "6.0",
+          "8.4"
         ],
         "description": "The Tools Brightspace Data Set retrieves the data on all the tools that exist in the organization. Returned Fields",
         "keys": [
@@ -15735,8 +15737,8 @@
         "name": "Auditor Relationships Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#auditor-relationships-log",
         "versions": [
-          "7.10",
-          "7.30"
+          "7.1",
+          "7.3"
         ],
         "description": "The Auditor Relationships Log Brightspace Data Set has a record of auditors and the users they audit in the organization. The User Auditors tool must be enabled to access this data. Note: The data set may appear blank unless new auditor-learner relationships are added. All historical data is populated 30 to 60 days after the November 2021/20.21.11 release.",
         "keys": [
@@ -15830,8 +15832,8 @@
         "name": "Course Access",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#course-access",
         "versions": [
-          "2.40",
-          "7.50"
+          "2.4",
+          "7.5"
         ],
         "description": "The Course Access Brightspace Data Set returns information on each day each user has accessed each course offering from the LMS (via a browser) across the organization. The data set does not include course access via any of our Apps. The data set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data. Note: If an administrator changes your time zone at the organization level, this can affect the calculation of DayAccessed because this field is in local time.",
         "keys": [
@@ -15885,7 +15887,7 @@
         "name": "Course Access Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#course-access-log",
         "versions": [
-          "7.50"
+          "7.5"
         ],
         "description": "The Course Access Log Brightspace Data Set returns information on users accessing their course offerings using the Pulse app. The data set creates a row with a timestamp when a user initially accesses a course, then creates additional rows for every 30 minutes that the user spends in the course.",
         "keys": [
@@ -15953,9 +15955,9 @@
         "name": "Enrollments and Withdrawals",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#enrollments-and-withdrawals",
         "versions": [
-          "3.20",
-          "6.00",
-          "7.70"
+          "3.2",
+          "6.0",
+          "7.7"
         ],
         "description": "The Enrollments and Withdrawals Brightspace Data Set returns a list of enrollments and withdrawals for all users in your organization.",
         "keys": [
@@ -16059,7 +16061,7 @@
         "name": "User Attribute Definitions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#user-attribute-definitions",
         "versions": [
-          "5.40"
+          "5.4"
         ],
         "description": "The User Attribute Definitions Brightspace Data Set returns a list of all defined user attributes in your organization. If no user attributes are defined for your organization, the data set will not generate.",
         "keys": [
@@ -16189,9 +16191,9 @@
         "name": "User Attribute Values",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#user-attribute-values",
         "versions": [
-          "5.40",
-          "6.00",
-          "8.50"
+          "5.4",
+          "6.0",
+          "8.5"
         ],
         "description": "The User Attribute Values Brightspace Data Set returns a list of all values for all defined user attributes for each user in your organization. If no user attributes are defined for your organization, the data set will not generate.",
         "keys": [
@@ -16296,9 +16298,9 @@
         "name": "User Enrollments",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#user-enrollments",
         "versions": [
-          "1.00",
-          "5.70",
-          "6.00"
+          "1.0",
+          "5.7",
+          "6.0"
         ],
         "description": "The User Enrollments Brightspace Data Set returns a list of enrollments for all users in your organization.",
         "keys": [
@@ -16390,10 +16392,10 @@
         "name": "User Logins",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#user-logins",
         "versions": [
-          "1.00",
-          "3.00",
-          "6.60",
-          "9.00"
+          "1.0",
+          "3.0",
+          "6.6",
+          "9.0"
         ],
         "description": "The User Logins Brightspace Data Set returns a list of all login attempts for your organization. The User Logins Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
         "keys": [
@@ -16523,13 +16525,13 @@
         "name": "Users",
         "url": "https://community.d2l.com/brightspace/kb/articles/4740-users-data-sets#users",
         "versions": [
-          "1.00",
-          "3.00",
-          "3.10",
-          "5.30",
-          "5.40",
-          "6.00",
-          "7.10"
+          "1.0",
+          "3.0",
+          "3.1",
+          "5.3",
+          "5.4",
+          "6.0",
+          "7.1"
         ],
         "description": "The Users Brightspace Data Set returns a list of users in your organization. Version 4.10 / 5.4 adds a system user entry with UserId = 0 to this data set. The system user is only included in the full CSV.",
         "keys": [
@@ -16730,8 +16732,8 @@
         "name": "Virtual Classroom Usage",
         "url": "https://community.d2l.com/brightspace/kb/articles/4541-virtual-classroom-data-sets#virtual-classroom-usage",
         "versions": [
-          "5.30",
-          "7.20"
+          "5.3",
+          "7.2"
         ],
         "description": "The Virtual Classroom Usage Brightspace Data Set returns information about how Virtual Classroom by Bongo is being used for Bongo Premium customers. The first data point is from July 1, 2018 and the data set will only appear for Bongo Premium customers if there is usage to retrieve. Note: The data includes all Virtual Classroom meetings that have ever been created. Cancelled meetings can be identified using the IsCancelled field, and do not appear in the LTI Links Brightspace Data Set. The Virtual Classroom UI only displays meetings that are scheduled to occur in the future, or have occurred and were recorded. Note: This data set is available as a FULL CSV containing all of the data and does not include a differential. Data is produced on a weekly basis, regardless of whether you purchased the hourly data freshness add-on. Since the data is owned by Bongo, data set generation is done on a region schedule and may not align to existing schedules. Returned Fields",
         "keys": [
@@ -16945,7 +16947,7 @@
         "name": "Assignment Special Access",
         "url": "https://community.d2l.com/brightspace/kb/articles/4767-assignments-data-sets#assignment-special-access",
         "versions": [
-          "6.10",
+          "6.1",
           "7.13"
         ],
         "description": "The Assignment Special Access Brightspace Data Set returns all applicable special access start, end, and due dates for each assignment in the organization.",
@@ -17090,10 +17092,10 @@
         "name": "Assignment Submission Details",
         "url": "https://community.d2l.com/brightspace/kb/articles/4767-assignments-data-sets#assignment-submission-details",
         "versions": [
-          "1.00",
-          "3.00",
-          "6.00",
-          "10.60"
+          "1.0",
+          "3.0",
+          "6.0",
+          "10.6"
         ],
         "description": "The Assignment Submission Details Brightspace Data Set returns details of each individual submission made by the user for all your org units. Results are ordered from newest to oldest. Soft deleted records have TRUE in the IsDeleted column. If a record is indirectly deleted when its parent entity (org unit or dropbox) is deleted, the IsDeleted value does not change to TRUE.",
         "keys": [
@@ -17275,15 +17277,15 @@
         "name": "Assignment Submissions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4767-assignments-data-sets#assignment-submissions",
         "versions": [
-          "1.00",
-          "3.00",
-          "3.20",
-          "5.00",
-          "5.10",
-          "5.20",
-          "6.00",
-          "7.20",
-          "7.40"
+          "1.0",
+          "3.0",
+          "3.2",
+          "5.0",
+          "5.1",
+          "5.2",
+          "6.0",
+          "7.2",
+          "7.4"
         ],
         "description": "The Assignment Submissions Brightspace Data Set returns a high-level summary information of all submissions made by a user to a given assignment for all your org units. Results are ordered from newest to oldest.",
         "keys": [
@@ -17492,18 +17494,18 @@
         "name": "Assignment Summary",
         "url": "https://community.d2l.com/brightspace/kb/articles/4767-assignments-data-sets#assignment-summary",
         "versions": [
-          "1.00",
-          "1.20",
-          "2.20",
-          "3.20",
-          "5.20",
-          "5.30",
-          "6.00",
-          "6.20",
-          "6.80",
+          "1.0",
+          "1.2",
+          "2.2",
+          "3.2",
+          "5.2",
+          "5.3",
+          "6.0",
+          "6.2",
+          "6.8",
           "7.13",
           "9.13",
-          "10.00"
+          "10.0"
         ],
         "description": "The Assignment Summary Brightspace Data Set returns information on the assignments for your org units.",
         "keys": [
@@ -17828,10 +17830,10 @@
         "name": "TurnItIn Submissions",
         "url": "https://community.d2l.com/brightspace/kb/articles/4767-assignments-data-sets#turnitin-submissions",
         "versions": [
-          "4.10",
-          "6.60",
-          "8.10",
-          "8.90"
+          "4.1",
+          "6.6",
+          "8.1",
+          "8.9"
         ],
         "description": "The TurnItIn Submissions Brightspace Data Set returns details of assignment submissions shared with TurnItIn version 2.",
         "keys": [
@@ -17981,8 +17983,8 @@
         "name": "LTI Advantage Deployment Audit",
         "url": "https://community.d2l.com/brightspace/kb/articles/4727-lti-data-sets#lti-advantage-deployment-audit",
         "versions": [
-          "9.70",
-          "10.60"
+          "9.7",
+          "10.6"
         ],
         "description": "The LTI Advantage Deployment Audit Brightspace Data Set logs the details of each time a user creates, updates, or deletes an LTI deployment. The data set captures events from October 2019 onwards.",
         "keys": [
@@ -18412,7 +18414,7 @@
         "name": "LTI Advantage Registration Audit",
         "url": "https://community.d2l.com/brightspace/kb/articles/4727-lti-data-sets#lti-advantage-registration-audit",
         "versions": [
-          "9.70"
+          "9.7"
         ],
         "description": "The LTI Advantage Registration Audit Brightspace Data Set logs the details of each time a user creates, updates, or deletes an LTI registration. The data set captures events from June 2019 onwards.",
         "keys": [
@@ -18673,8 +18675,8 @@
         "name": "LTI Launches",
         "url": "https://community.d2l.com/brightspace/kb/articles/4727-lti-data-sets#lti-launches",
         "versions": [
-          "5.50",
-          "8.90"
+          "5.5",
+          "8.9"
         ],
         "description": "The LTI Launches Brightspace Data Set logs details of each time a user launches an LTI link in the organization.",
         "keys": [
@@ -18895,8 +18897,8 @@
         "name": "LTI Link Migration Audit",
         "url": "https://community.d2l.com/brightspace/kb/articles/4727-lti-data-sets#lti-link-migration-audit",
         "versions": [
-          "8.00",
-          "9.40"
+          "8.0",
+          "9.4"
         ],
         "description": "The LTI Link Migration Audit Brightspace Data Set logs all attempted LTI link migrations. Each row in the data set represents an attempted link migration from LTI 1.1 to LTI 1.3.",
         "keys": [
@@ -19104,11 +19106,11 @@
         "name": "LTI Links",
         "url": "https://community.d2l.com/brightspace/kb/articles/4727-lti-data-sets#lti-links",
         "versions": [
-          "4.10",
-          "5.10",
-          "6.00",
-          "9.14",
-          "9.20"
+          "4.1",
+          "5.1",
+          "6.0",
+          "9.2",
+          "9.14"
         ],
         "description": "The LTI Links Brightspace Data Set retrieves the list of LTI links that exist in the organization. Links deleted after October 2023 are identified by the IsDeleted column. Links deleted before October 2023 are not included in the data.",
         "keys": [
@@ -19530,16 +19532,16 @@
         "name": "Quiz Attempts",
         "url": "https://community.d2l.com/brightspace/kb/articles/4532-quizzes-data-sets#quiz-attempts",
         "versions": [
-          "1.00",
+          "1.0",
           "1.10",
-          "5.20",
-          "6.00",
-          "6.10",
+          "5.2",
+          "6.0",
+          "6.1",
+          "6.7",
           "6.11",
-          "6.70",
           "8.10",
-          "9.00",
-          "10.60"
+          "9.0",
+          "10.6"
         ],
         "description": "The Quiz Attempts Brightspace Data Set returns details for each user quiz attempt for all your org units. This data set includes completed quiz attempts and in-progress quiz attempts.",
         "keys": [
@@ -19812,10 +19814,10 @@
         "name": "Quiz Attempts Log",
         "url": "https://community.d2l.com/brightspace/kb/articles/4532-quizzes-data-sets#quiz-attempts-log",
         "versions": [
-          "4.10",
-          "6.00",
+          "4.1",
+          "6.0",
           "9.14",
-          "10.30"
+          "10.3"
         ],
         "description": "The Quiz Attempts Log Brightspace Data Set returns details on the events that occur during a quiz attempt. This data set includes completed quiz attempts, in-progress quiz attempts, and preview attempts. The IsDeleted value is always TRUE for preview attempts. There is no explicit time cap placed on this data set. However, data is sorted from newest to oldest and older data will be dropped if the data set reaches the row limit.",
         "keys": [
@@ -19945,17 +19947,17 @@
         "name": "Quiz Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4532-quizzes-data-sets#quiz-objects",
         "versions": [
-          "1.70",
-          "2.20",
-          "5.20",
-          "6.00",
-          "6.20",
-          "6.70",
-          "8.00",
+          "1.7",
+          "2.2",
+          "5.2",
+          "6.0",
+          "6.2",
+          "6.7",
+          "8.0",
           "8.10",
-          "9.00",
-          "10.00",
-          "10.60"
+          "9.0",
+          "10.0",
+          "10.6"
         ],
         "description": "The Quiz Objects Brightspace Data Set returns information about the settings and properties of a quiz.",
         "keys": [
@@ -20449,9 +20451,9 @@
         "name": "Quiz Survey Sections",
         "url": "https://community.d2l.com/brightspace/kb/articles/4532-quizzes-data-sets#quiz-survey-sections",
         "versions": [
-          "3.40",
-          "5.10",
-          "9.40"
+          "3.4",
+          "5.1",
+          "9.4"
         ],
         "description": "The Quiz Survey Sections Brightspace Data Set returns information about all the sections and question pools that have been created in quizzes in the organization.",
         "keys": [
@@ -20698,8 +20700,8 @@
         "name": "Quiz User Answer Responses",
         "url": "https://community.d2l.com/brightspace/kb/articles/4532-quizzes-data-sets#quiz-user-answer-responses",
         "versions": [
-          "1.00",
-          "6.10",
+          "1.0",
+          "6.1",
           "9.10"
         ],
         "description": "The Quiz User Answer Responses Brightspace Data Set returns details on how a user answered a specific quiz question. Data includes whether an answer is correct and details around the quiz score. Rows in the data set are filtered out if they are associated with deleted quiz questions. The Quiz User Answer Responses Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
@@ -20872,13 +20874,13 @@
         "name": "Quiz User Answers",
         "url": "https://community.d2l.com/brightspace/kb/articles/4532-quizzes-data-sets#quiz-user-answers",
         "versions": [
-          "1.00",
-          "4.10",
-          "5.20",
-          "6.50",
-          "6.70",
-          "9.00",
-          "9.80"
+          "1.0",
+          "4.1",
+          "5.2",
+          "6.5",
+          "6.7",
+          "9.0",
+          "9.8"
         ],
         "description": "The Quiz User Answers Brightspace Data Set returns data that describes the question and score the user received. Rows in the data set are filtered out if they are associated with deleted quiz questions. The Quiz User Answers Brightspace Data Set contains data from 1 January 2021 onwards and adheres to the default system limit of 150 million rows of the most recent data.",
         "keys": [
@@ -21132,7 +21134,7 @@
         "name": "Reoffer Course",
         "url": "https://community.d2l.com/brightspace/kb/articles/33182-reoffer-course-data-sets#reoffer-course",
         "versions": [
-          "10.60"
+          "10.6"
         ],
         "description": "The Reoffer Course Brightspace Data Set returns details for every re-offered course within an organization.",
         "keys": [
@@ -21204,10 +21206,10 @@
         "name": "Rubric Assessment",
         "url": "https://community.d2l.com/brightspace/kb/articles/4535-rubrics-data-sets#rubric-assessment",
         "versions": [
-          "1.00",
-          "6.00",
-          "6.80",
-          "10.40"
+          "1.0",
+          "6.0",
+          "6.8",
+          "10.4"
         ],
         "description": "The Rubric Assessment Brightspace Data Set returns details for all rubric assessments. It includes incomplete rubric assessments, which have a null LevelAchievedId value.",
         "keys": [
@@ -21377,13 +21379,13 @@
         "name": "Rubric Assessment Criteria",
         "url": "https://community.d2l.com/brightspace/kb/articles/4535-rubrics-data-sets#rubric-assessment-criteria",
         "versions": [
-          "1.00",
-          "5.20",
-          "5.30",
-          "5.60",
-          "6.00",
-          "10.40",
-          "10.60"
+          "1.0",
+          "5.2",
+          "5.3",
+          "5.6",
+          "6.0",
+          "10.4",
+          "10.6"
         ],
         "description": "The Rubric Assessment Criteria Brightspace Data Set returns details for all rubric criteria in rubrics.",
         "keys": [
@@ -21515,8 +21517,8 @@
         "name": "Rubric Criteria Levels",
         "url": "https://community.d2l.com/brightspace/kb/articles/4535-rubrics-data-sets#rubric-criteria-levels",
         "versions": [
-          "2.00",
-          "5.30"
+          "2.0",
+          "5.3"
         ],
         "description": "The Rubric Criteria Levels Brightspace Data Set returns the details for all rubric criteria and associated levels where they exist.",
         "keys": [
@@ -21622,8 +21624,8 @@
         "name": "Rubric Objects",
         "url": "https://community.d2l.com/brightspace/kb/articles/4535-rubrics-data-sets#rubric-objects",
         "versions": [
-          "1.70",
-          "6.00"
+          "1.7",
+          "6.0"
         ],
         "description": "The Rubric Objects Brightspace Data Set returns information about the rubric properties.",
         "keys": [
@@ -21766,8 +21768,8 @@
         "name": "Rubric Object Criteria",
         "url": "https://community.d2l.com/brightspace/kb/articles/4535-rubrics-data-sets#rubric-object-criteria",
         "versions": [
-          "1.70",
-          "2.00",
+          "1.7",
+          "2.0",
           "9.12"
         ],
         "description": "The Rubric Object Criteria Brightspace Data Set returns information about the rubric criteria within a rubric.",
@@ -21898,9 +21900,9 @@
         "name": "Rubric Object Levels",
         "url": "https://community.d2l.com/brightspace/kb/articles/4535-rubrics-data-sets#rubric-object-levels",
         "versions": [
-          "1.70",
-          "5.20",
-          "6.00"
+          "1.7",
+          "5.2",
+          "6.0"
         ],
         "description": "The Rubric Object Levels Brightspace Data Set returns information about the rubric levels in a rubric criteria.",
         "keys": [
@@ -22045,7 +22047,7 @@
         "versions": [
           "7.12",
           "7.13",
-          "8.70"
+          "8.7"
         ],
         "description": "In the Rubrics Edit Brightspace Data Set, each row represents one element of a rubric that was changed by a permissioned user. If multiple elements are changed in the same rubric, multiple data rows will appear in the data set. Modified Object Type Lookup The following table contains all possible ModifiedObjectType values and their corresponding rubric element:",
         "keys": [

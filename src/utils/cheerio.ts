@@ -4,9 +4,9 @@ import type { Element } from "domhandler";
 export function text(el: Cheerio<Element>) {
   return el
     .text()
-    .trim()
     .replace(/[^\x20-\x7E]/g, " ")
-    .replace(/[\x20]{2,}/g, " ");
+    .replace(/[\x20]{2,}/g, " ")
+    .trim();
 }
 
 export function* rows($: CheerioAPI, table: Cheerio<Element>) {

@@ -67,7 +67,7 @@ function get_dataset($: CheerioAPI, header: Cheerio<Element>) {
   return {
     name: cheerUtil.text(header),
     url: typeof id === "string" ? id : undefined,
-    versions: [...new Set(fields.map((f) => f.version.id))].sort((a, b) => parseFloat(a) - parseFloat(b)),
+    versions: get_versions(fields),
     description: descriptions.join(" ").trim(),
     keys: fields.filter((f) => f.isPrimary).map((f) => f.name),
     fields,
@@ -99,6 +99,17 @@ function get_fields($: CheerioAPI, table: Cheerio<Element>) {
   }
 
   return fields;
+}
+
+function get_versions(fields: DatasetField[]) {
+  const versions = [...new Set(fields.map((f) => f.version.id))];
+
+  return versions.sort((a, b) => {
+    const [a1, a2] = [...a.split(".").map(s => parseInt(s)), 0, 0];
+    const [b1, b2] = [...b.split(".").map(s => parseInt(s)), 0, 0];
+
+    return (a1 !== b1) ? a1 - b1 : a2 - b2;
+  });
 }
 
 function get_version(versionHistory: string) {
