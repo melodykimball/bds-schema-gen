@@ -1,5 +1,5 @@
 import type { AnyNode, Element } from "domhandler";
-import type { SiteNav } from "../types/SiteNav";
+import type { SiteNav } from "../types";
 
 export function site_nav(el: unknown): el is SiteNav {
   const siteNav = object(el) ? el : {};

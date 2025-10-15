@@ -1,11 +1,12 @@
-import type { CategoryListItem } from "../types";
-import list_site_navs from "./list_site_navs";
+import type { Category, CategoryListItem } from "../types";
+import * as dataset from "./dataset";
+import * as sitenav from "./sitenav";
 
 const AboutBdsUri = "https://community.d2l.com/brightspace/kb/articles/4518-about-brightspace-data-sets";
 const SiteNavBdsParentName = "Brightspace Data Sets";
 
-export default async function list_categories() {
-  const siteNavs = await list_site_navs(AboutBdsUri);
+export async function list() {
+  const siteNavs = await sitenav.list(AboutBdsUri);
 
   // Get the site nav ID for the parent of all the BDS page links
   const parentID = siteNavs.find((el) => el.name === SiteNavBdsParentName)?.recordID ?? -99;
@@ -20,4 +21,13 @@ export default async function list_categories() {
           url: el.url,
         } as CategoryListItem)
     );
+}
+
+export async function get(category: CategoryListItem) {
+  const datasets = await dataset.list(category);
+
+  return {
+    ...category,
+    datasets,
+  } as Category;
 }

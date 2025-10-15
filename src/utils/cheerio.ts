@@ -5,7 +5,8 @@ export function text(el: Cheerio<Element>) {
   return el
     .text()
     .trim()
-    .replace(/[^\x00-\x7F]/g, "");
+    .replace(/[^\x20-\x7E]/g, " ")
+    .replace(/[\x20]{2,}/g, " ");
 }
 
 export function* rows($: CheerioAPI, table: Cheerio<Element>) {
