@@ -19,7 +19,7 @@
     "url": "git+https://github.com/melodykimball/bds-schema-gen.git"
   },
   "bin": {
-    "bds-schema-gen": "./dist/bds-schema-gen.js"
+    "bds-schema-gen": "dist/bds-schema-gen.js"
   },
   "type": "module",
   "scripts": {
